@@ -5,11 +5,30 @@ for (var item in menu) {
   menuBtn.id = menu[item];
   menuBtn.className = 'btn';
   menuBtn.innerHTML = menu[item];
-  menuBtn.addEventListener("click" , eventFunction , false)
+  menuBtn.addEventListener('click' , displayContent , false);
   document.getElementById("menu").appendChild(menuBtn);
 }
 
+function includeJs(jsFilePath) {
+    var js = document.createElement("script");
 
-function eventFunction(){
-  alert("clicked");
+    js.type = "text/javascript";
+    js.src = jsFilePath;
+
+    document.body.appendChild(js);
+}
+
+function displayContent(item){
+  let funcName = item.target.id;
+  funcName = window[funcName];
+  return funcName();
+}
+
+
+function Array (){
+includeJs("methods/array.js");
+}
+
+function Boolean (){
+  return(alert("fuck"));
 }
