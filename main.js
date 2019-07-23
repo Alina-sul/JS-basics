@@ -9,14 +9,6 @@ for (var item in menu) {
   document.getElementById("menu").appendChild(menuBtn);
 }
 
-function includeJs(jsFilePath) {
-    var js = document.createElement("script");
-
-    js.type = "text/javascript";
-    js.src = jsFilePath;
-
-    document.body.appendChild(js);
-}
 
 function displayContent(item){
   let funcName = item.target.id;
@@ -26,7 +18,7 @@ function displayContent(item){
 
 
 function Array (){
-includeJs("methods/array.js");
+window.location.assign("array.html");
 }
 
 function Boolean (){
