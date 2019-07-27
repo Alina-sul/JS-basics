@@ -1,4 +1,4 @@
-var menu = ['Array','Boolean','Date'];
+var menu = ['array','boolean','date'];
 
 for (var item in menu) {
   var menuBtn = document.createElement('button');
@@ -16,10 +16,11 @@ function displayContent(item){
   return funcName();
 }
 
-
-function Array (){
+function array (){
 window.location.assign("array.html");
 }
+
+
 
 function Boolean (){
   return(alert("fuck"));
