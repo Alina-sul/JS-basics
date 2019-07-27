@@ -49,11 +49,18 @@ result += "<u>find():</u> " + " finds first even number in arr1 : " + find + "<b
 let findIndex = arr1.findIndex(evenNum);
 result += "<u>findIndex():</u> " + " finds first even number index in arr1 : " + findIndex + "<br/>" ;
 
-//findIndex
+//from
 let from = Array.from("helloworld");
 result += "<u>from():</u> " + " object = 'hello world' : " + from + "<br/>" ;
 
-//findIndex
+//foreach
+let i = 0;
+let arrFor = [2,4,6,8,10];
+arrFor.forEach(function(){ return i++; });
+result += "<u>foreach():</u> " + " on arr [2,4,6,8,10]: count length " + i + "<br/>" ;
+
+
+//includes
 let includes = arr2.includes(6,2);
 result += "<u>includes():</u> " + " on arr2 : num 6 after index 2 : " + includes + "<br/>" ;
 
@@ -152,6 +159,9 @@ sort.sort(compareFunction);
 result += "<u>sort():</u> sorted arr : " + sort + "<br/>" ;
 
 //splice
+let splice = [1,2,3,4];
+splice.splice(3 , 1 , 3);
+result += "<u>splice():</u> arr1 remove 4 add 3 : " + splice + "<br/>" ;
 
 
 
