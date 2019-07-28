@@ -163,8 +163,17 @@ let splice = [1,2,3,4];
 splice.splice(3 , 1 , 3);
 result += "<u>splice():</u> arr1 remove 4 add 3 : " + splice + "<br/>" ;
 
+//toString
+let string = ['h','e','l','l','o'];
+result += "<u>toString():</u> " + string.toString() + " I am a string now " + "<br/>" ;
 
+//unShift
+let unshift = [1,2,3,4];
+unshift.unshift(0);
+result += "<u>unShift():</u> default: arr1. add 0: " + unshift + "<br/>" ;
 
+//valueOf;
+result += "<u>valueOf():</u> default: arr2. values: " + arr2.valueOf() + "<br/>" ;
 
 
 

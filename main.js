@@ -20,6 +20,9 @@ function array (){
 window.location.assign("array.html");
 }
 
+function boolean (){
+window.location.assign("boolean.html");
+}
 
 
 function Boolean (){
