@@ -1,4 +1,4 @@
-var menu = ['array','boolean','date'];
+var menu = ['array','string','statements','RegExp','json'];
 
 for (var item in menu) {
   var menuBtn = document.createElement('button');
@@ -20,8 +20,8 @@ function array (){
 window.location.assign("array.html");
 }
 
-function boolean (){
-window.location.assign("boolean.html");
+function statements (){
+window.location.assign("statements.html");
 }
 
 
