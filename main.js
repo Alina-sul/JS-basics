@@ -16,14 +16,17 @@ function displayContent(item){
   return funcName();
 }
 
-function array (){
+function array(){
 window.location.assign("array.html");
 }
 
-function statements (){
+function statements(){
 window.location.assign("statements.html");
 }
 
+function string(){
+window.location.assign("string.html");
+}
 
 function Boolean (){
   return(alert("fuck"));
