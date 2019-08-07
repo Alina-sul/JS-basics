@@ -27,7 +27,3 @@ window.location.assign("statements.html");
 function string(){
 window.location.assign("string.html");
 }
-
-function Boolean (){
-  return(alert("fuck"));
-}
