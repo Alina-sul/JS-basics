@@ -1,6 +1,6 @@
 document.getElementById('title').innerHTML = "METHODS";
 string1 = "hello world! ";
-string2 = "how are you today?";
+string2 = "HOW are you today?";
 
 document.getElementById('defaultData').innerHTML = "string1: " + string1 + "<br>string2: " + string2 + "<br>";
 result = "";
@@ -60,9 +60,29 @@ result += "<u>startsWith():</u> string2 starts with 'hello': " + string2.startsW
 //substr()
 result += "<u>substr():</u> string2: " + string2.substr(2,11) + "<br/>" ;
 
+//substring()
+result += "<u>substring():</u> string2: " + string2.substring(2,11) + "<br/>" ;
 
+//toLocaleLowerCase()
+result += "<u>toLocaleLowerCase():</u> string2: " + string2.toLocaleLowerCase() + "<br/>" ;
 
+//toLocaleUpperCase()
+result += "<u>toLocaleUpperCase():</u> string2: " + string2.toLocaleUpperCase() + "<br/>" ;
 
+//toLowerCase()
+result += "<u>toLowerCase():</u> string2: " + string2.toLowerCase() + "<br/>" ;
+
+//toUpperCase()
+result += "<u>toUpperCase():</u> string2: " + string2.toUpperCase() + "<br/>" ;
+
+//toString()
+result += "<u>toString():</u> string2: " + string2.toString() + "<br/>" ;
+
+//trim()
+result += "<u>trim():</u> string1: " + string1.trim() + "<br/>" ;
+
+//valueOf()
+result += "<u>valueOf():</u> string1: " + string1.valueOf() + "<br/>" ;
 
 
 
